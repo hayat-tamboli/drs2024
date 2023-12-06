@@ -4,12 +4,173 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
     <title>DRS 2024</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
 </head>
 
 <body>
-    
+    <header
+        class="sticky top-0 z-40 w-full backdrop-blur bg-white flex-none transition-colors duration-500 lg:z-50 border-b lg:border-slate-900/10 supports-backdrop-blur:bg-white/95 ">
+        <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8 " aria-label="Global">
+            <div class="flex lg:flex-1">
+                <a href="#" class="-m-1.5 p-1.5 font-bold hover:text-sky-600 text-xl">
+                    DRS 2024
+                </a>
+            </div>
+            <div class="hidden lg:flex lg:flex-row lg:gap-x-12 flex-col">
+                <a href="#important-dates"
+                    class="text-sm font-semibold leading-6 text-gray-900 hover:text-sky-600">Important Dates</a>
+                <a href="#" class="text-sm font-semibold leading-6 text-gray-900 hover:text-sky-600">Previous DRS</a>
+                <a href="#" class="text-sm font-semibold leading-6 text-gray-900 hover:text-sky-600">DES</a>
+            </div>
+        </nav>
+    </header>
+    <main class="lg:px-80 md:px-36 p-6 lg:pt-24">
+        <h1 class="lg:text-5xl text-3xl font-extrabold text-sky-800">
+            Design Research Seminar 2024
+        </h1>
+        <p class="pt-8">
+            Design Research Seminar 2024 (DRS2024) will follow a blind review process. DRS2024 invites submissions by
+            MDes students and their supervisor faculty members. Apart from a written paper or an insightful report, DRS
+            welcomes other kinds of accompaniments including an artefact, a film, images, visual essays, books, fonts
+            etc. The submission will be reviewed by 3 faculty members and PhD students of IDC, who will read the
+            submission, write a detailed review and provide a rating. The review process will be single-blind. This
+            means that while the reviewers will know the authors of a submission, authors will not know who the
+            reviewers were. Authors will get the reviews and will get a chance to write a "rebuttal", wherein they can
+            respond to reviewers' queries or clarify misunderstandings. A decision will be made based on the reviews,
+            the ratings and the rebuttal. If the submission is deemed to be of an acceptable quality, it will be
+            presented at the Design Research Seminar that is scheduled between April 1 to 3, 2024. Authors whose
+            submissions were not found to be of acceptable quality will get a chance to resubmit and some of these may
+            go through an additional review process followed by a seminar in May 2024 (dates to be decided).
+        </p>
+        <p class="pt-8">
+            The chairs for IDC Design Research Seminar 2020 will be Venkatesh Rajamanickam and Anirudha Joshi, who will
+            assign the reviewers and manage the above review process. They will also manage the discussions between
+            reviewers and make decisions when there are conflicting ratings.
+        </p>
+        <h2 class="text-xl font-semibold pt-16" id="important-dates">
+            Important Dates
+        </h2>
+        <table class="table-auto border w-full text-lg mt-4">
+            <tbody>
+                <tr class="border-b border-slate-300 p-8 pl-8 text-slate-800">
+                    <td class="border-b border-slate-300 p-4 pl-8">Submission to supervisor</td>
+                    <td class="border-b border-slate-300 p-4 pl-8">March 9, 2024</td>
+                </tr>
+                <tr class="border-b border-slate-300 p-8 pl-8 text-slate-800">
+                    <td class="border-b border-slate-300 p-4 pl-8">Submission in easychair
+                        <small>(see instructions below)</small>
+                    </td>
+                    <td class="border-b border-slate-300 p-4 pl-8">March 16, 2024</td>
+                </tr>
+                <tr class="border-b border-slate-300 p-8 pl-8 text-slate-800">
+                    <td class="border-b border-slate-300 p-4 pl-8">Review of submissions</td>
+                    <td class="border-b border-slate-300 p-4 pl-8">March 17-26, 2024</td>
+                </tr>
+                <tr class="border-b border-slate-300 p-8 pl-8 text-slate-800">
+                    <td class="border-b border-slate-300 p-4 pl-8">Intimation</td>
+                    <td class="border-b border-slate-300 p-4 pl-8">March 27, 2024</td>
+                </tr>
+                <tr class="border-b border-slate-300 p-8 pl-8 text-slate-800">
+                    <td class="border-b border-slate-300 p-4 pl-8">Rebuttals from authors</td>
+                    <td class="border-b border-slate-300 p-4 pl-8">March 31, 2024</td>
+                </tr>
+                <tr class="border-b border-slate-300 p-8 pl-8 text-slate-800">
+                    <td class="border-b border-slate-300 p-4 pl-8">Decisions</td>
+                    <td class="border-b border-slate-300 p-4 pl-8">April 1, 2024</td>
+                </tr>
+                <tr class="border-b border-slate-300 p-8 pl-8 text-slate-800">
+                    <td class="border-b border-slate-300 p-4 pl-8">Design Research Seminar
+                        <small>(only accepted presentations)</small>
+                    </td>
+                    <td class="border-b border-slate-300 p-4 pl-8">April 2-3, 2024</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 class="text-xl font-semibold pt-16" id="important-dates">
+            Submission Instructions
+        </h2>
+        <ul class="list-disc mt-4 mb-2 ml-4 flex flex-col gap-y-3">
+            <li>Authors should prepare a submission using the IDC P2/P3 report format. The submission should include the
+                name of the student and the name of the supervisor.</li>
+            <li>The page limit for the main submission from Abstract to Conclusion is 5 to 10 pages including images and
+                tables. Submissions with less than 5 pages and more than 10 pages will be desk-rejected without a
+                review. Authors can add up to another 10 pages for references, annexures and appendices. Any additional
+                material (such as media files including large images, large collections of images, videos, transcripts,
+                audio files etc.) should be uploaded online and the link(s) to these should be included as references in
+                the submission.</li>
+            <li>Convert your submission and appendices into a single PDF file. The file size limit for easychair is 20
+                MB per submission. Before uploading, please make sure that your PDF file size is within this limit.</li>
+            <li>Upload the PDF of your submission (only the PDF of your submission, i.e. not the media files) in
+                easychair before the deadline. If you don't already have an easychair account, you may have to create it
+                first.</li>
+            <li>You can update the submission any number of times before the deadline. You will not be able to change
+                the submission after the deadline.</li>
+            <li>After the deadline, you should not update your referenced media files online. Please note that your
+                reviewers will start reviewing your submission any time after March 16. As we would like all reviewers
+                to see the same version of the media files, and as reviewers may review your work on different days
+                during the review period, you should not update them after the deadline. As the reviewers will be
+                anonymous, you will not be able to inform them either.</li>
+        </ul>
+
+        <h2 class="text-xl font-semibold pt-16" id="important-dates">
+            We are inviting the following people to participate in the review process
+        </h2>
+        <ul class="mt-4 mb-2 flex flex-wrap gap-3">
+            <li class="p-4 bg-slate-100 rounded border">Uday Athavankar</li>
+            <li class="p-4 bg-slate-100 rounded border">Sudesh Balan</li>
+            <li class="p-4 bg-slate-100 rounded border">Vijay Bapat</li>
+            <li class="p-4 bg-slate-100 rounded border">Prasad Bokil</li>
+            <li class="p-4 bg-slate-100 rounded border">BK Chakravarthy</li>
+            <li class="p-4 bg-slate-100 rounded border">Girish Dalvi</li>
+            <li class="p-4 bg-slate-100 rounded border">Sreekumar GV</li>
+            <li class="p-4 bg-slate-100 rounded border">Alka Hingorani</li>
+            <li class="p-4 bg-slate-100 rounded border">Anirudha Joshi</li>
+            <li class="p-4 bg-slate-100 rounded border">Mazhar Kamran</li>
+            <li class="p-4 bg-slate-100 rounded border">Vivek Kant</li>
+            <li class="p-4 bg-slate-100 rounded border">Pramod Khambete</li>
+            <li class="p-4 bg-slate-100 rounded border">Kumaresan</li>
+            <li class="p-4 bg-slate-100 rounded border">Arun Mascarenhas</li>
+            <li class="p-4 bg-slate-100 rounded border">Raja Mohanty</li>
+            <li class="p-4 bg-slate-100 rounded border">Swati Pal</li>
+            <li class="p-4 bg-slate-100 rounded border">Jayesh S. Pillai</li>
+            <li class="p-4 bg-slate-100 rounded border">Ravi Poovaiah</li>
+            <li class="p-4 bg-slate-100 rounded border">Venkatesh Rajamanickam</li>
+            <li class="p-4 bg-slate-100 rounded border">Shilpa Ranade</li>
+            <li class="p-4 bg-slate-100 rounded border">Sumant Rao</li>
+            <li class="p-4 bg-slate-100 rounded border">Gaur Ray</li>
+            <li class="p-4 bg-slate-100 rounded border">Nina Sabnani</li>
+            <li class="p-4 bg-slate-100 rounded border">Nachiketa Sadhu</li>
+            <li class="p-4 bg-slate-100 rounded border">Avinash Shende</li>
+            <li class="p-4 bg-slate-100 rounded border">Phani Tetali</li>
+            <li class="p-4 bg-slate-100 rounded border">Ganesh Bhutkar</li>
+            <li class="p-4 bg-slate-100 rounded border">Mustansir Dalvi</li>
+            <li class="p-4 bg-slate-100 rounded border">Deepshikha Dash</li>
+            <li class="p-4 bg-slate-100 rounded border">Udaya Kumar Dharmalingam</li>
+            <li class="p-4 bg-slate-100 rounded border">Shalaka Dighe</li>
+            <li class="p-4 bg-slate-100 rounded border">Amit Jena</li>
+            <li class="p-4 bg-slate-100 rounded border">Amar Kundu</li>
+            <li class="p-4 bg-slate-100 rounded border">Indrani Medhi Thies</li>
+            <li class="p-4 bg-slate-100 rounded border">Nanki Nath</li>
+            <li class="p-4 bg-slate-100 rounded border">Rupesh Nath</li>
+            <li class="p-4 bg-slate-100 rounded border">Swayamsiddha Panigrahi</li>
+            <li class="p-4 bg-slate-100 rounded border">Koumudi Patil</li>
+            <li class="p-4 bg-slate-100 rounded border">Sajan Pillai</li>
+            <li class="p-4 bg-slate-100 rounded border">Lakshmi Murthy</li>
+            <li class="p-4 bg-slate-100 rounded border">Priyanka Rawal</li>
+            <li class="p-4 bg-slate-100 rounded border">Pratiti Sarkar</li>
+            <li class="p-4 bg-slate-100 rounded border">Abhishek Shrivastava</li>
+        </ul>
+    </main>
 </body>
 
 </html>
