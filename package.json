@@ -3,6 +3,6 @@
     "tailwindcss": "^3.3.6"
   },
   "scripts": {
-    "dev": "http-server --proxy http://localhost:8080? -o /src"
+    "dev": "http-server --proxy http://localhost:8080/src -o /src"
   }
 }
